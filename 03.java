@@ -6,3 +6,6 @@ public class Main {
 
         System.out.print("Enter First Number: ");
         float a = scanner.nextFloat();
+
+        System.out.print("Enter Second Number: ");
+        float b = scanner.nextFloat();
