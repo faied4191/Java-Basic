@@ -9,3 +9,11 @@ public class Main {
 
         System.out.print("Enter Second Number: ");
         float b = scanner.nextFloat();
+
+        float sum = a + b;
+
+        System.out.println("The Sum is: " + sum);
+
+        scanner.close();
+    }
+}
