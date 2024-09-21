@@ -6,3 +6,13 @@ public class Main {
 
         System.out.print("Enter Your Name: ");
         String a = scanner.nextLine();
+
+        System.out.print("Enter Your ID: ");
+        String b = scanner.nextLine();
+
+        System.out.println("Name: " + a);
+        System.out.println("ID: " + b);
+
+        scanner.close();
+    }
+}
