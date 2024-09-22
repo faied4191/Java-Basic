@@ -9,3 +9,6 @@ public class Main {
 
         System.out.print("Enter Second Number: ");
         int b = scanner.nextInt();
+
+        System.out.print("Enter Third Number: ");
+        int c = scanner.nextInt();
