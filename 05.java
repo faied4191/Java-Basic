@@ -12,3 +12,19 @@ public class Main {
 
         System.out.print("Enter Third Number: ");
         int c = scanner.nextInt();
+
+        int greatest;
+
+        if (a > b && a > c) {
+            greatest = a;
+        } else if (b > a && b > c) {
+            greatest = b;
+        } else {
+            greatest = c;
+        }
+
+        System.out.println("The Greatest is: " + greatest);
+
+        scanner.close();
+    }
+}
