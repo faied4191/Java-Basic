@@ -19,3 +19,13 @@ public class Main {
 
         System.out.print("Enter the second number: ");
         float b = scanner.nextFloat();
+
+        float sum = isSum(a, b);
+        float max = isMax(a, b);
+
+        System.out.println("The sum is: " + sum);
+        System.out.println("The maximum number is: " + max);
+
+        scanner.close();
+    }
+}
