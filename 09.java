@@ -14,3 +14,11 @@ public class Main {
 
         System.out.print("Enter the second number: ");
         float b = scanner.nextFloat();
+
+        float sum = isSum(a, b);
+
+        System.out.println("The sum is: " + sum);
+
+        scanner.close();
+    }
+}
