@@ -10,3 +10,6 @@ public class Main {
     public static float isMax(float x, float y) {
         return (x > y) ? x : y;
     }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
