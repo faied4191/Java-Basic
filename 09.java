@@ -11,3 +11,6 @@ public class Main {
 
         System.out.print("Enter the first number: ");
         float a = scanner.nextFloat();
+
+        System.out.print("Enter the second number: ");
+        float b = scanner.nextFloat();
