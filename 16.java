@@ -12,3 +12,11 @@ public class Main {
             System.out.println("Sleep");
         }
     }
+
+    // Define the Dog class which extends Animal
+    static class Dog extends Animal {
+        // Method for barking
+        void bark() {
+            System.out.println("Woof!");
+        }
+    }
