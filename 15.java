@@ -10,3 +10,9 @@ public class Main {
             this.length = length;
             this.width = width;
         }
+
+        // Method to calculate and display the area
+        void area() {
+            int area = length * width;
+            System.out.println("Area: " + area);
+        }
