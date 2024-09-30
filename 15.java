@@ -23,3 +23,13 @@ public class Main {
             System.out.println("Perimeter: " + perimeter);
         }
     }
+
+    public static void main(String[] args) {
+        // Create a Rectangle object
+        Rectangle ob = new Rectangle(5, 3);
+
+        // Display the area and perimeter
+        ob.area();
+        ob.perimeter();
+    }
+}
