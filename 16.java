@@ -20,3 +20,16 @@ public class Main {
             System.out.println("Woof!");
         }
     }
+
+    public static void main(String[] args) {
+        // Create a Dog object
+        Dog ob = new Dog();
+
+        // Call methods from Animal class
+        ob.eat();
+        ob.sleep();
+
+        // Call method from Dog class
+        ob.bark();
+    }
+}
