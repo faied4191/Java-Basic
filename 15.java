@@ -4,3 +4,9 @@ public class Main {
     static class Rectangle {
         int length;
         int width;
+
+        // Constructor
+        Rectangle(int length, int width) {
+            this.length = length;
+            this.width = width;
+        }
