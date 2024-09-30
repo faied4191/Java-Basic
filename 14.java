@@ -12,3 +12,11 @@ public class Main {
             this.author = author;
             this.year = year;
         }
+
+        // Method to display book details
+        void display() {
+            System.out.println("Title: " + title);
+            System.out.println("Author: " + author);
+            System.out.println("Year: " + year);
+        }
+    }
