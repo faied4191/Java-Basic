@@ -20,3 +20,14 @@ public class Main {
             System.out.println("Year: " + year);
         }
     }
+
+    public static void main(String[] args) {
+        // Create Book objects
+        Book ob1 = new Book("The Lord of the Rings", "J.R.R. Tolkien", 1954);
+        Book ob2 = new Book("The Hitchhiker's Guide to the Galaxy", "Douglas Adams", 1979);
+
+        // Display book details
+        ob1.display();
+        ob2.display();
+    }
+}
