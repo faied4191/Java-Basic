@@ -6,3 +6,9 @@ public class Main {
         void eat() {
             System.out.println("Eat");
         }
+
+        // Method for sleeping
+        void sleep() {
+            System.out.println("Sleep");
+        }
+    }
