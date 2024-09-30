@@ -7,3 +7,5 @@ public class Main {
         System.out.print("Enter the number of elements: ");
         int a = scanner.nextInt();
         scanner.nextLine(); // Consume the newline character left by nextInt()
+
+        String[] arr1 = new String[a];
