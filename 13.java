@@ -14,3 +14,13 @@ public class Main {
             System.out.print("Enter element name " + (i + 1) + ": ");
             arr1[i] = scanner.nextLine();
         }
+
+        System.out.println();
+        System.out.println("Elements and values:");
+        for (int i = 0; i < a; i++) {
+            System.out.println("arr1[" + i + "] = " + arr1[i]);
+        }
+
+        scanner.close();
+    }
+}
