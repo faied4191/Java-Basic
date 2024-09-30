@@ -16,3 +16,10 @@ public class Main {
             int area = length * width;
             System.out.println("Area: " + area);
         }
+
+        // Method to calculate and display the perimeter
+        void perimeter() {
+            int perimeter = 2 * (length + width);
+            System.out.println("Perimeter: " + perimeter);
+        }
+    }
