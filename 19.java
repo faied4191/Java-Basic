@@ -9,3 +9,8 @@ public class Main {
         Adder(int i) {
             total = i;
         }
+
+        // Default constructor
+        Adder() {
+            this(0); // Calls the parameterized constructor with default value 0
+        }
