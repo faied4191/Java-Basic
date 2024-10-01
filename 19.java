@@ -29,3 +29,13 @@ public class Main {
     public static void main(String[] args) {
         // Create an Adder object
         Adder a = new Adder();
+
+        // Add numbers
+        a.addNum(10);
+        a.addNum(20);
+        a.addNum(30);
+
+        // Print the total
+        System.out.println("Total " + a.getTotal());
+    }
+}
