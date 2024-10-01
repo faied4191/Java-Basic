@@ -14,3 +14,8 @@ public class Main {
         Adder() {
             this(0); // Calls the parameterized constructor with default value 0
         }
+
+        // Interface to add a number
+        void addNum(int number) {
+            total += number;
+        }
