@@ -25,3 +25,7 @@ public class Main {
             return total;
         }
     }
+
+    public static void main(String[] args) {
+        // Create an Adder object
+        Adder a = new Adder();
