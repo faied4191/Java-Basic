@@ -19,3 +19,9 @@ public class Main {
         void addNum(int number) {
             total += number;
         }
+
+        // Interface to get the total
+        int getTotal() {
+            return total;
+        }
+    }
