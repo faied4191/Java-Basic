@@ -4,3 +4,8 @@ public class Main {
     static class Adder {
         // Hidden data from the outside world
         private int total;
+
+        // Constructor with default value
+        Adder(int i) {
+            total = i;
+        }
