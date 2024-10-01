@@ -9,3 +9,8 @@ public class Main {
     static void add(double a, double b) {
         System.out.println("The Sum is: " + (a + b));
     }
+
+    // Method to add three integers
+    static void add(int a, int b, int c) {
+        System.out.println("The Sum is: " + (a + b + c));
+    }
