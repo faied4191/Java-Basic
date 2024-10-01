@@ -7,3 +7,8 @@ public class Main {
         void add(int a, int b) {
             System.out.println("The Sum is: " + (a + b));
         }
+
+        // Method to add two doubles
+        void add(double a, double b) {
+            System.out.println("The Sum is: " + (a + b));
+        }
